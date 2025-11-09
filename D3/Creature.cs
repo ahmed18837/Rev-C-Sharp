@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace D3
 {
-     abstract class Creature
+     public class Creature
     {
         public int Age;
         protected int Height;
@@ -33,7 +33,7 @@ namespace D3
         //    Console.WriteLine("Creature is moving");
         //}
 
-        public abstract void Move();
+        //public abstract void Move();
 
         public virtual void Update()
         {
